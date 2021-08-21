@@ -208,8 +208,80 @@
 .like_bd{
     height: 323px;
     width: 1205px;
-    border-right: 1px solid #ededed;
+    
 }
 .like_bd ul li{
     float:left;
+}
+
+.like_bd ul li:last-child{
+    border-right: 1px solid #ededed;
+}
+
+.household_hd{
+    margin-top: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-bottom: 2px solid #c81623;
+}
+.household_hd h3{
+    float:left;
+    font-size: 18px;
+    font-weight: 600;
+    color: #c81623;
+}
+.household_hd .tablelist{
+    float:right;
+}
+.household_hd .tablelist ul li{
+    float:left;
+}
+.household_hd .tablelist ul li a{
+    font-size: 14px;
+}
+.household_hd .tablelist ul .hot{
+    color:#c81623;
+}
+.household_hd .tablelist li:nth-child(even){
+    width: 0.5px;
+    height: 10px;
+    margin: 10px 12px 0; 
+    background-color: #666;
+}
+
+.household_bd{
+    height: 361px;
+    width: 1202px;
+}
+.table_content_hot>div{
+    float:left;
+}
+.col_210{
+    width: 210px;
+    background-color: #f9f9f9;
+}
+.col_210 ul li{
+    float: left;
+    width: 85px;
+    height: 34px;
+    line-height: 34px;
+    margin-left: 12px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+}
+.col_210 ul li a{
+    font-size: 12px;
+}
+.col_329{
+    width: 329px;
+}
+.col_221{
+    width: 221px;
+}
+.table_content_hot .br{
+    border-right: 1px solid #ccc;
+}
+.col_221 .bb{
+    display: block;
+    border-bottom: 1px solid #ccc;
 }

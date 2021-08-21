@@ -1,0 +1,129 @@
+.w{
+    width: 1200px;
+    margin: 0 auto;
+}
+header{
+    height: 84px;
+    border-bottom: 2px solid #c81523;
+}
+.logo{
+    padding-top: 18px;
+}
+.registorarea{
+    margin-top: 20px;
+    height: 522px;
+    border:1px solid #ccc;
+    border-collapse:collapse;
+}
+.registorarea h3{
+    height: 42px;
+    line-height: 42px;
+    padding-left: 10px;
+    font-size: 16px;
+    border-bottom: 1px solid #ccc;
+    background-color: #ececec;
+    border-collapse:collapse;
+}
+.registorarea .log{
+    float:right;
+    height: 40px;
+    font-size: 14px;
+    margin-right: 10px;
+    line-height: 40px;
+}
+.registorarea div a{
+    color: #c81523;
+}
+.reg_form{
+    width: 600px;
+    margin:50px auto 0;
+}
+.reg_form ul li{
+    margin-bottom: 23px;
+}
+.reg_form label{
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 8px;
+    width: 88px;
+    text-align: right;
+}
+.reg_form input{
+    margin-right: 8px;
+    width: 242px;
+    height: 37px;
+    border: 1px solid #ccc;
+}
+.error{
+    font-size: 14px;
+    color: #c81523;
+}
+.error_icon{
+    vertical-align: middle;
+    margin-right: 5px;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url(../images/error.png);
+}
+.success{
+    font-size: 14px;
+    color: green;
+}
+.success_icon{
+    vertical-align: middle;
+    margin-right: 5px;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url(../images/success.png);
+}
+.safe{
+    padding-left: 175px;;
+}
+.safe em{
+    padding:0 12px;
+    margin-left: 1px;
+    color: #fff;
+}
+.weak{
+    background-color: red;
+}
+.middle{
+    background-color: green;
+}
+.strong{
+    background-color: orange;
+}
+.agree{
+    padding-left: 110px;
+    margin-bottom: 30px;
+}
+#checkbox{
+    height: 12px;
+    width: 12px;
+    vertical-align: middle;
+}
+.btn{
+    margin-top: 20px;
+    width: 200px;
+    height: 34px;
+    background-color: #c81523;
+    font-size: 14px;
+    color: #fff;
+}
+.reg_form ul li:last-child{
+    padding-left:100px;
+}
+
+.links {
+    margin-bottom: 15px;
+    text-align: center;
+}
+.copyright {
+    margin-top: 30px;
+    line-height: 20px;
+}
+.copyright .contact{
+    text-align: center;
+}
