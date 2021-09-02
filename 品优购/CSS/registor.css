@@ -1,129 +1,157 @@
-.w{
-    width: 1200px;
-    margin: 0 auto;
+.w {
+  width: 1200px;
+  margin: 0 auto;
 }
-header{
-    height: 84px;
-    border-bottom: 2px solid #c81523;
+header {
+  height: 84px;
+  border-bottom: 2px solid #c81523;
 }
-.logo{
-    padding-top: 18px;
+.logo {
+  padding-top: 18px;
 }
-.registorarea{
-    margin-top: 20px;
-    height: 522px;
-    border:1px solid #ccc;
-    border-collapse:collapse;
+.registorarea {
+  margin-top: 20px;
+  height: 522px;
+  border: 1px solid #ccc;
+  border-collapse: collapse;
 }
-.registorarea h3{
-    height: 42px;
-    line-height: 42px;
-    padding-left: 10px;
-    font-size: 16px;
-    border-bottom: 1px solid #ccc;
-    background-color: #ececec;
-    border-collapse:collapse;
+.registorarea h3 {
+  height: 42px;
+  line-height: 42px;
+  padding-left: 10px;
+  font-size: 16px;
+  border-bottom: 1px solid #ccc;
+  background-color: #ececec;
+  border-collapse: collapse;
 }
-.registorarea .log{
-    float:right;
-    height: 40px;
-    font-size: 14px;
-    margin-right: 10px;
-    line-height: 40px;
+.registorarea .log {
+  float: right;
+  height: 40px;
+  font-size: 14px;
+  margin-right: 10px;
+  line-height: 40px;
 }
-.registorarea div a{
-    color: #c81523;
+.registorarea div a {
+  color: #c81523;
 }
-.reg_form{
-    width: 600px;
-    margin:50px auto 0;
+.reg_form {
+  width: 600px;
+  margin: 50px auto 0;
 }
-.reg_form ul li{
-    margin-bottom: 23px;
+.reg_form ul li {
+  margin-bottom: 23px;
 }
-.reg_form label{
-    display: inline-block;
-    font-size: 16px;
-    margin-right: 8px;
-    width: 88px;
-    text-align: right;
+.reg_form label {
+  display: inline-block;
+  font-size: 16px;
+  margin-right: 8px;
+  width: 88px;
+  text-align: right;
 }
-.reg_form input{
-    margin-right: 8px;
-    width: 242px;
-    height: 37px;
-    border: 1px solid #ccc;
+.reg_form input {
+  margin-right: 8px;
+  width: 242px;
+  height: 37px;
+  border: 1px solid #ccc;
 }
-.error{
-    font-size: 14px;
-    color: #c81523;
+.judge {
+  display: none;
+  width: 200px;
 }
-.error_icon{
-    vertical-align: middle;
-    margin-right: 5px;
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    background: url(../images/error.png);
+.judge_icon {
 }
-.success{
-    font-size: 14px;
-    color: green;
+.void {
+  position: relative;
+  font-size: 14px;
+  color: #ccc;
 }
-.success_icon{
-    vertical-align: middle;
-    margin-right: 5px;
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    background: url(../images/success.png);
+.void_icon {
+  vertical-align: middle;
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background: url(../images/mess.png);
 }
-.safe{
-    padding-left: 175px;;
+.error {
+  position: relative;
+  font-size: 14px;
+  color: #c81523;
 }
-.safe em{
-    padding:0 12px;
-    margin-left: 1px;
-    color: #fff;
+.error_icon {
+  vertical-align: middle;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: url(../images/error.png);
 }
-.weak{
-    background-color: red;
+.success {
+  font-size: 14px;
+  position: relative;
+  color: green;
 }
-.middle{
-    background-color: green;
+.success_icon {
+  vertical-align: middle;
+  margin-right: 5px;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: url(../images/success.png);
 }
-.strong{
-    background-color: orange;
+.safe {
+  padding-left: 175px;
 }
-.agree{
-    padding-left: 110px;
-    margin-bottom: 30px;
+.safe em {
+  padding: 0 12px;
+  margin-left: 1px;
+  color: #fff;
 }
-#checkbox{
-    height: 12px;
-    width: 12px;
-    vertical-align: middle;
+.weak {
+  visibility: hidden;
+  background-color: red;
 }
-.btn{
-    margin-top: 20px;
-    width: 200px;
-    height: 34px;
-    background-color: #c81523;
-    font-size: 14px;
-    color: #fff;
+.middle {
+  visibility: hidden;
+  background-color: green;
 }
-.reg_form ul li:last-child{
-    padding-left:100px;
+.strong {
+  visibility: hidden;
+  background-color: orange;
+}
+.agree {
+  padding-left: 110px;
+  margin-bottom: 30px;
+}
+#checkbox {
+  height: 12px;
+  width: 12px;
+  vertical-align: middle;
+}
+.btn {
+  margin-top: 20px;
+  width: 200px;
+  height: 34px;
+  background-color: #c81523;
+  font-size: 14px;
+  color: #fff;
+}
+.reg_form ul li:last-child {
+  padding-left: 100px;
 }
 
 .links {
-    margin-bottom: 15px;
-    text-align: center;
+  margin-bottom: 15px;
+  text-align: center;
 }
 .copyright {
-    margin-top: 30px;
-    line-height: 20px;
+  margin-top: 30px;
+  line-height: 20px;
 }
-.copyright .contact{
-    text-align: center;
+.copyright .contact {
+  text-align: center;
+}
+.tips {
+  display: inline-block;
+  width: 300px;
+  position: absolute;
+  left: 20px;
 }
