@@ -30,26 +30,29 @@ foucuspoint.addEventListener("click", function (e) {
 });
 
 var num = 0;
+var flag = true;
 next.addEventListener("click", function () {
-  for (var i = 0; i < foucuspoint.children.length; i++) {
-    foucuspoint.children[i].className = "normal";
+  if (flag) {
+    for (var i = 0; i < foucuspoint.children.length; i++) {
+      foucuspoint.children[i].className = "normal";
+    }
+    num++;
+    //   console.log(num);
+    if (num == 4) {
+      var fake_first = foucus_img.children[0].cloneNode(true);
+      foucus_img.appendChild(fake_first);
+    }
+    animation(foucus_img, -num * 721);
+    if (foucus_img.offsetLeft <= -2884) {
+      foucus_img.style.left = 0;
+      animation(foucus_img, -721);
+      num = 1;
+      foucus_img.removeChild(foucus_img.lastChild);
+    }
+    num = num % 4;
+    var index = num;
+    foucuspoint.children[index].className = "current";
   }
-  num++;
-  //   console.log(num);
-  if (num == 4) {
-    var fake_first = foucus_img.children[0].cloneNode(true);
-    foucus_img.appendChild(fake_first);
-  }
-  animation(foucus_img, -num * 721);
-  if (foucus_img.offsetLeft <= -2884) {
-    foucus_img.style.left = 0;
-    animation(foucus_img, -721);
-    num = 1;
-    foucus_img.removeChild(foucus_img.lastChild);
-  }
-  num = num % 4;
-  var index = num;
-  foucuspoint.children[index].className = "current";
 });
 
 prev.addEventListener("click", function () {
